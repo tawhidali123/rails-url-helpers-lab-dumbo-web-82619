@@ -1,4 +1,4 @@
 <h1><%= @student.to_s %></h1>
-<p><%= @student.active %></p>
-<a href="#"><%= @student.active %></a>
+
+ <%= link_to "Activity", student_activate_path(@student) %>
 
